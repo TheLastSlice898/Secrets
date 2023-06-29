@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class Drag : MonoBehaviour
 {
-    public delegate void DragEndedDelegate(Drag draggableObject);
-    public DragEndedDelegate dragEndedCallback;
-
-        
     Vector3 mousePosition;
-    private bool isDragged = false;
     private Vector3 getMousePos()
     {
         return Camera.main.WorldToScreenPoint(transform.position);
@@ -18,12 +13,6 @@ public class Drag : MonoBehaviour
     private void OnMouseDown()
     {
         mousePosition = Input.mousePosition - getMousePos();
-    }
-
-    private void OnMouseUp()
-    {
-        isDragged = false;
-        dragEndedCallback(this);
     }
 
     private void OnMouseDrag()
