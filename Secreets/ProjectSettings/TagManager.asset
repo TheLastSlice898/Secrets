@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Page Drag
+  - Left
+  - Right
+  - Left_Drop
+  - Right_Drop
   layers:
   - Default
   - TransparentFX
