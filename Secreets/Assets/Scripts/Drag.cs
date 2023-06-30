@@ -9,7 +9,7 @@ public class Drag : MonoBehaviour
 
         
     Vector3 mousePosition;
-    private bool isDragged = false;
+    private bool isDragged = false; 
     private Vector3 getMousePos()
     {
         return Camera.main.WorldToScreenPoint(transform.position);
@@ -33,4 +33,10 @@ public class Drag : MonoBehaviour
 
 
 }
+
+// colider detedcts if child of book, parenr it, child, trandform
+// set up ontrigenter, parenting or making ibject child, simple transform 
+// teleportin, switch off 
+// dectetion how many are in book, how many for win 
+// small match area 
 
