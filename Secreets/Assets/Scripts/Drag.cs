@@ -23,7 +23,7 @@ public class Drag : MonoBehaviour
     private void OnMouseUp()
     {
         isDragged = false;
-        dragEndedCallback(this);
+        //dragEndedCallback(this);
     }
 
     private void OnMouseDrag()
