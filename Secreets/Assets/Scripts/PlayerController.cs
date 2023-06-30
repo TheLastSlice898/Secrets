@@ -28,8 +28,12 @@ public class PlayerController : MonoBehaviour
         {
             Jump();
         }
+        Debug.Log(PlayerRB.velocity.x);
 //fuck off cam
-     
+     if(PlayerRB.velocity.x > MaxSpeed)
+     {
+        PlayerRB.velocity.Set(PlayerRB.velocity.x,PlayerRB.velocity.y,PlayerRB.velocity.z);
+     }
 
 
     }
