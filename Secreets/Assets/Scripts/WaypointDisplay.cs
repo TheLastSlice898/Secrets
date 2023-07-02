@@ -31,6 +31,6 @@ public class WaypointDisplay : MonoBehaviour
             Gizmos.DrawLine(transform.GetChild(i).position, transform.GetChild(i + 1).position);
         }
 
-
+        
     }
 }

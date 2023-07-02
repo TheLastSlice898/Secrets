@@ -20,9 +20,10 @@ public class Waypoint : MonoBehaviour
     {
 
     }
-    
     public Transform GetNextWaypoint(Transform currentWaypoint)
     {
+        
+
         if (currentWaypoint == null)
         {
             return Waypoints[CurrentPath].transform.GetChild(0);
@@ -33,9 +34,10 @@ public class Waypoint : MonoBehaviour
         }
         else
         {
-           return Waypoints[CurrentPath].transform.GetChild(0);
+            Debug.Log("i win :)");
+            return currentWaypoint.transform;
         }
 
-
     }
+
 }
