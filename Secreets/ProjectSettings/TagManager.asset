@@ -8,6 +8,7 @@ TagManager:
   - Right
   - Left_Drop
   - Right_Drop
+  - Book
   layers:
   - Default
   - TransparentFX
