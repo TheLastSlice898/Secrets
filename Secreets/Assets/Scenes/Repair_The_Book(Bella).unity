@@ -422,8 +422,8 @@ GameObject:
   - component: {fileID: 525155482}
   - component: {fileID: 525155481}
   m_Layer: 0
-  m_Name: Spine 1 (Left)
-  m_TagString: Left_Drop
+  m_Name: Spine
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -578,7 +578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6334592489426645671, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_TagString
-      value: Right
+      value: Page Drag
       objectReference: {fileID: 0}
     - target: {fileID: 7185859141167091634, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_ProvidesContacts
@@ -608,8 +608,8 @@ GameObject:
   - component: {fileID: 637351184}
   - component: {fileID: 637351183}
   m_Layer: 0
-  m_Name: 'Spine 2 (Right) '
-  m_TagString: Right_Drop
+  m_Name: Spine (1)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -902,7 +902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6334592489426645671, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_TagString
-      value: Right
+      value: Page Drag
       objectReference: {fileID: 0}
     - target: {fileID: 7185859141167091634, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_ProvidesContacts
@@ -1025,7 +1025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6334592489426645671, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_TagString
-      value: Right
+      value: Page Drag
       objectReference: {fileID: 0}
     - target: {fileID: 7185859141167091634, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_ProvidesContacts
@@ -1153,7 +1153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6334592489426645671, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_TagString
-      value: Left
+      value: Page Drag
       objectReference: {fileID: 0}
     - target: {fileID: 7185859141167091634, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_ProvidesContacts
@@ -1311,7 +1311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6334592489426645671, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_TagString
-      value: Left
+      value: Page Drag
       objectReference: {fileID: 0}
     - target: {fileID: 7185859141167091634, guid: 2b5c31d94d360d04d89834e573c74f12, type: 3}
       propertyPath: m_ProvidesContacts
